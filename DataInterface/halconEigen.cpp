@@ -8,6 +8,7 @@ Eigen::Matrix4d halPoseToEigenPose(HTuple pose)
 	{
 		PoseToHomMat3d(pose, &_pose);
 	}
+
 	if (pose.Length() == 12)
 	{
 		_pose = pose;
