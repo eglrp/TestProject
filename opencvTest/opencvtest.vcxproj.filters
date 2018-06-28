@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lineMod">
+      <UniqueIdentifier>{8741117e-d8b9-4259-98ee-217815b830d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMethod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cvtool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImgTransform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreAlgorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lineMod\depth_to_3d.h">
+      <Filter>lineMod</Filter>
+    </ClInclude>
+    <ClInclude Include="lineMod\linemod.hpp">
+      <Filter>lineMod</Filter>
+    </ClInclude>
+    <ClInclude Include="lineMod\precomp.hpp">
+      <Filter>lineMod</Filter>
+    </ClInclude>
+    <ClInclude Include="lineMod\rgbd.hpp">
+      <Filter>lineMod</Filter>
+    </ClInclude>
+    <ClInclude Include="lineMod\utils.h">
+      <Filter>lineMod</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="opencvtest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLWriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cvtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImgTransform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreAlgorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\depth_cleaner.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\depth_registration.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\depth_to_3d.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\linemod.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\normal.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\odometry.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\plane.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="lineMod\utils.cpp">
+      <Filter>lineMod</Filter>
+    </ClCompile>
+    <ClCompile Include="linemodSample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
