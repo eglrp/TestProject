@@ -18,5 +18,7 @@ Eigen::Matrix4d halPoseToEigenPose(HTuple pose)
 		_pose[8], _pose[9], _pose[10], _pose[11],
 		0, 0, 0, 1;
 	return _ma4;
+
+
 }
 
