@@ -266,10 +266,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	*/
 	
 	laser.readParameter("sensorPara.par");
+	laser.writeParameter("sensorPara.par");
 	string  str = "./clipimage/laser/laserTest5.bmp";
 	Mat tesimg = imread(str);
 	double he = laser.getZ(tesimg);
 	cout << "height 5 = " << -he + 3.85 << endl;
+
+
+
 
 	str = "./clipimage/laser/laserTest6.bmp";
 	tesimg = imread(str);
@@ -280,6 +284,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	tesimg = imread(str);
 	he = laser.getZ(tesimg);
 	cout << "height 9 = " << -he + 3.85 << endl;
+
 	
 #endif
 

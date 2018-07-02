@@ -157,18 +157,21 @@ cv::Point2f laserSensorAlgorithm::getOffsetToCenter(const cv::Point2f pointInImg
 
 bool laserSensorAlgorithm::readParameter(string filePath)
 {
-	ifstream ism("./sensorPara.par", ios::in | ios::binary);
-	boost::archive::binary_iarchive ir(ism);
+	ifstream ism(filePath, ios::in);
+	//ifstream ism("E:/Projects/git/PCBAoi/LK-LSB-A_90/so9.mod", ios::in | ios::binary);
+
+	boost::archive::text_iarchive ir(ism);
 	m_para.serializeA(ir, 1);
 	ism.close();
+	m_isCalibrated = true;
 	return true;
 }
 
 bool laserSensorAlgorithm::writeParameter(const string filePath)
 {
-	ofstream osm(filePath, ios::out | ios::binary);
-	boost::archive::binary_oarchive ar(osm);
-    m_para.serializeA(ar, 1);
+	ofstream osm(filePath, ios::out);
+	boost::archive::text_oarchive ar(osm);
+	m_para.serializeA(ar, 1);
 	osm.close();
 	return true;
 }
